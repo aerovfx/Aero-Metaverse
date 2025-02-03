@@ -32,3 +32,41 @@ Thực tế ảo ứng dụng trong giải trí với các game nhập vai, các
 Nguyên tắc hoạt động của thực tế ảo: Người dùng đeo kính thực tế ảo hoặc bộ điều khiển cảm ứng giúp họ tương tác và di chuyển trong không gian ảo hoặc sử dụng điện thoại để đưa các đối tượng ảo đặt hòa nhập vào môi trường. Hệ thống VR, AR sử dụng phần mềm tạo ra mô phỏng môi trường (ánh sáng, tương tác), các cảm biến theo dõi chuyển động và điều chỉnh hình ảnh, âm thanh và cảm giác của họ trong thế giới ảo. Hệ thống gồm hình ảnh 3D, âm thanh, có thể kèm rung động, nhiệt độ, độ ẩm, mùi, gió,..tạo cảm giác đa giác quan.
 Tương tác trực tiếp với thế giới thực: AR cho phép người dùng tương tác với môi trường thực qua các thiết bị hỗ trợ như cảm biến, camera và màn hình. Chức năng nhận diện và theo dõi chuyển động của camera giúp tạo ra các mô hình ảo phù hợp với không gian thật mà người dùng đang thấy.
 1.1.2.	Ưu nhược điểm của nội dung thực tế ảo so với nội dung thông thường
+Ưu điểm	Nhược điểm
+Tương tác trực quan: Người dùng có thể quan sát và tương tác trực tiếp với các đối tượng 3D, giúp hiểu sâu hơn về khái niệm.
+Môi trường học an toàn: VR cho phép thực hành các tình huống nguy hiểm (như mô phỏng hỏa hoạn hoặc thí nghiệm hóa học) mà không gặp rủi ro thực tế.	Các thiết bị VR chất lượng cao (như kính VR, máy tính mạnh, phần mềm) có giá thành cao, khiến việc phổ biến trở nên khó khăn đối với cá nhân hoặc tổ chức nhỏ. Người dùng cần có kỹ năng sử dụng thiết bị và phần mềm.  Đội ngũ phát triển cần có kiến thức chuyên sâu về đồ họa 3D, lập trình, và thiết kế trải nghiệm.
+Y học: Phẫu thuật mô phỏng, nghiên cứu cấu trúc cơ thể.
+Giáo dục: Mô phỏng lịch sử, khoa học, thiên văn học.
+Giải trí: Game, du lịch ảo.
+Kỹ thuật và công nghiệp: Thiết kế sản phẩm, kiểm tra dây chuyền sản xuất.	Sử dụng VR trong thời gian dài có thể gây mệt mỏi, chóng mặt (hiện tượng say VR) hoặc căng thẳng mắt..
+Hình ảnh và âm thanh chân thực giúp người dùng tập trung hơn, kích thích sự tò mò và sáng tạo.	VR không tái hiện được hoàn toàn cảm giác xúc giác, mùi vị, và nhiệt độ, khiến trải nghiệm chưa thật sự hoàn thiện.
+Giảm chi phí vật liệu và thiết bị thực tế trong các ngành cần mô phỏng phức tạp, như mô phỏng bay hoặc đào tạo quân sự.	Không phải ai cũng có điều kiện sử dụng VR, đặc biệt ở những khu vực có điều kiện kinh tế khó khăn hoặc thiếu cơ sở hạ tầng.
+VR có thể được lập trình để đáp ứng các kịch bản cụ thể, phù hợp với nhu cầu của từng đối tượng.	Có nguy cơ làm giảm tương tác xã hội trực tiếp do người dùng dành nhiều thời gian trong thế giới ảo
+
+1.1.3.	Ưu nhược điểm của thực tế ảo (Virtual Reality VR) và thực tế ảo tăng cường (Augmented Reality AR)
+Tiêu chí	Augmented Reality (AR)	Virtual Reality (VR)
+Mức độ nhập vai	Trung bình	Cao
+Tính tương tác	Cao trong môi trường thực	Cao trong môi trường ảo
+Chi phí	Thấp hơn	Cao hơn
+Yêu cầu thiết bị	Smartphone, tablet, kính AR 	Kính VR, máy tính mạnh
+Ứng dụng	Thực tế (giáo dục, hướng dẫn)	Mô phỏng phức tạp, giải trí
+Khả năng tiếp cận	Cao	Thấp
+Ảnh hưởng sức khỏe	Ít (trừ khi dùng lâu dài)	Nhiều hơn (say VR, căng mắt)
+1.1.4.	Print 3D là gì? Ứng dụng? Hoạt động ra sao?
+In 3D printing, hay còn gọi là sản xuất bồi đắp (additive manufacturing), là quá trình tạo ra một vật thể ba chiều từ mô hình CAD (Computer-Aided Design: Thiết kế hỗ trợ bởi máy tính) hoặc mô hình 3D kỹ thuật số. Quá trình này có thể được thực hiện bằng nhiều phương pháp khác nhau, trong đó vật liệu được lắng đọng, kết nối hoặc làm rắn lại dưới sự điều khiển của máy tính. Vật liệu được bổ sung dần dần (chẳng hạn như nhựa, chất lỏng hoặc hạt bột được nung chảy), thường theo từng lớp.
+In 3D áp dụng trong rất nhiều lĩnh vực, ví dụ như: Tạo mẫu nhanh (prototype), sản xuất linh kiện. Sản xuất chân tay giả, răng sứ, hoặc bộ phận thay thế như xương. Tạo các mô hình cơ thể người để luyện tập. In các bản mẫu nhỏ của tòa nhà hoặc không gian nội thất. Dùng máy in 3D quy mô lớn để xây tường hoặc kết cấu nhà. Tạo ra các mô hình nhân vật, đồ chơi, trang sức, hoặc tác phẩm nghệ thuật. Dùng để minh họa các khái niệm khoa học, cơ học, và kỹ thuật. Sản xuất các công cụ hoặc thiết bị thí nghiệm. Sản xuất linh kiện nhẹ nhưng bền vững cho máy bay, tàu vũ trụ.
+In 3D hoạt động dựa trên các bước sau: Sử dụng phần mềm CAD như Blender, Fusion 360, hoặc SolidWorks để tạo mô hình kỹ thuật số. Lưu file ở định dạng STL hoặc OBJ để gửi đến máy in. Cắt lớp (slicing): Dùng phần mềm slicing để chia nhỏ mô hình 3D thành các lớp mỏng. Chương trình cũng tạo lệnh để máy in biết cách di chuyển đầu in và đắp vật liệu. Mẫu sau khi cắt lớp được đưa vào máy, máy in 3D đắp từng lớp vật liệu (nhựa, kim loại, gốm, hoặc sinh học) theo hướng dẫn từ phần mềm slicing. Quá trình này lặp đi lặp lại cho đến khi hoàn thành vật thể. Sau khi in xong, sản phẩm có thể cần xử lý thêm (như mài nhẵn, sơn, hoặc lắp ráp).
+1.1.5.	Bảng so sánh một số công nghệ in 3D theo các tiêu chí
+Tiêu chí	FDM (Fused Deposition Modeling)	SLA (Stereolithography)	SLS (Selective Laser Sintering)	DMLS (Direct Metal Laser Sintering)	PolyJet
+Vật liệu sử dụng	Nhựa nhiệt dẻo (PLA, ABS, PETG)	Nhựa lỏng cảm quang	Bột nhựa, bột kim loại	Bột kim loại	Nhựa lỏng
+Độ chính xác	Trung bình (~0.1 mm)	Cao (~0.025 mm)	Cao (~0.05 mm)	Rất cao (~0.02 mm)	Rất cao (~0.015 mm)
+Độ bền sản phẩm	Trung bình	Thấp đến trung bình	Cao	Rất cao	Trung bình
+Tốc độ in	Trung bình	Chậm	Nhanh	Chậm	Nhanh
+Chi phí thiết bị	Rất thấp (~3tr-20tr)	Trung bình 20tr-200tr)	Rất cao (~1 tỷ trở lên)	Rất cao (~2,5 tỷ trở lên)	Cao (~600tr trở lên)
+Chi phí vận hành	Thấp (dễ bảo trì, vật liệu từ 100k-200k/kg)	Trung bình (nhựa lỏng 350k-1tr/lít)	Cao (bột nhựa 2tr-10tr/kg)	Rất cao (bột kim loại từ 15tr/kg)	Cao (vật liệu từ 2tr-10tr/lít)
+Ứng dụng chính	Tạo mẫu nhanh, DIY	Mô hình chi tiết nhỏ, nghệ thuật	Công nghiệp, hàng không	Y tế, hàng không, công nghiệp nặng	Tạo mẫu chi tiết, sản phẩm nhựa phức tạp
+Bề mặt sản phẩm	Thô (cần hoàn thiện thêm)	Mịn	Thô (cần hoàn thiện thêm)	Thô đến mịn (tùy vật liệu)	Rất mịn
+Kích thước in tối đa	Lớn	Nhỏ	Trung bình đến lớn	Trung bình	Nhỏ
+Tính linh hoạt vật liệu	Thấp (nhựa cơ bản)	Thấp (nhựa lỏng chuyên dụng)	Cao (nhiều loại bột)	Rất cao (kim loại đa dạng)	Trung bình (nhựa lỏng đa dạng)
+Thời gian hoàn thiện	Ngắn	Dài	Trung bình	Dài	Ngắn
+Giá thành sản phẩm	Rẻ 	Rẻ	Cao 	Rất cao 	Cao 
