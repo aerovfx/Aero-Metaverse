@@ -146,16 +146,46 @@ Bước 5. In thử nghiệm và đánh giá: Cắt lớp, tạo thanh chống h
 Đợi khoảng 1h, máy in xong thì để khô dưới ánh sáng Mặt trời hoặc rửa trong dung dịch cồn. Sau đó cắt bỏ các thanh chống (support), làm sạch mẫu in. Thành quả sau khi in
 ![a6](https://github.com/user-attachments/assets/334b6ec6-99dd-48b1-9a21-420e5c490f0f)
 Quy trình số hóa các hình dạng hình học cơ bản trong SGK Toán học 11
+
 Bước 1. Đối tượng cần số hóa là các hình dạng hình học như: Hình chóp cụt, khối chóp có đáy là đa giác, kim tự tháp, lăng trụ tam giác. Những mẫu này có ứng dụng thực tế trong việc nghiên cứu về các khối đa diện trong việc tính toán thể tích, diện tích. 
 Bước 2. Thực hiện model các hình khối với các lệnh Add Mesh và di chuyển các điểm, cạnh, mặt để tạo hình mong muốn. Sử dụng LOD (Level of Detail) nếu cần để tối ưu hóa hiệu suất.
 Bước 3. Sau khi model, chúng em lưu file gốc (Blender) và các phiên bản khác như STL, USDZ.
 Quá trình thiết kế mẫu 3D trên phần mềm Blender
 
-![a7](https://github.com/user-attachments/assets/09537b5a-a411-4494-8c52-e7b607a71190)!
-[a8](https://github.com/user-attachments/assets/2eb43f16-2ebe-4d6a-9ad0-b30fe3ae5453)
-
+![a7](https://github.com/user-attachments/assets/09537b5a-a411-4494-8c52-e7b607a71190)
+![a8](https://github.com/user-attachments/assets/2eb43f16-2ebe-4d6a-9ad0-b30fe3ae5453)
 
 ![a9](https://github.com/user-attachments/assets/d49ec165-5634-4546-a109-494a30761026)
 
 Bước 4. Tích hợp vào chương trình thực tế ảo tăng cường Reality Composer. Kiểm tra và hiệu chỉnh tương tác, hoạt cảnh của đối tượng với ứng dụng thực tế ảo tăng cường.
 Bước 5. In thử nghiệm và đánh giá: Cắt lớp, tạo thanh chống hỗ trợ mẫu, tính toán chi phí, chuyển file ra usb của máy in và cắm vào máy in, đổ mực in.
+![a11](https://github.com/user-attachments/assets/c6e722d4-1826-480b-9891-cf67f26c50d0)
+
+![a10](https://github.com/user-attachments/assets/1d6aecb1-b839-4851-8fc6-d447cbb1b8dd)
+Đợi khoảng 1h, máy in xong thì để khô dưới ánh sáng Mặt trời hoặc rửa trong dung dịch cồn. Sau đó cắt bỏ các thanh chống (support), làm sạch mẫu in.
+![a12](https://github.com/user-attachments/assets/dbc36236-b23f-4107-9771-e82eca811715)
+![a13](https://github.com/user-attachments/assets/13a796e5-1d7b-4d02-8411-5da994580edd)
+Sau khi triển khai các bước của hai quy trình riêng biệt dành cho hai đối tượng khác nhau, chúng em đã rút ra được các kinh nghiệm vô cùng quý giá để thực hiện một mô hình phức tạp hơn là Hệ Mặt Trời.
+3.	Điểm mới và tính ưu việt của đề tài
+3.1.	Điểm mới của đề tài
+Đề tài này phát triển một quy trình kết hợp thực tế ảo tăng cường (AR) và in 3D, giúp học sinh chúng em tự tạo nội dung học tập. Học sinh có thể quét vật thể bằng điện thoại hoặc tạo mô hình 3D qua phần mềm như Blender, Reality Composer. Nội dung 3D thực tế ảo có dung lượng khá thấp dưới 20MB nên dễ dàng chia sẻ qua giao tiếp trường gần như NFC, AIRDROP và các ứng dụng như Zalo, Google Drive, hoặc thư viện Fab.com. Công nghệ in 3D được tích hợp để giúp học sinh cảm nhận mô hình một cách trực tiếp, khắc phục điểm yếu của AR là không có thật. Quy trình thiết kế cho cả người không chuyên và chuyên môn cao, từ việc sử dụng điện thoại đến phần mềm chuyên nghiệp. Môi trường học tập tương tác giúp học sinh tự tạo bài học và tương tác với mô hình 3D, mang lại trải nghiệm học tập trực quan. Các ứng dụng AR được cá nhân hóa, tăng khả năng áp dụng kiến thức vào thực tế.
+Ngoài ra, đề tài cũng phân tích chi tiết chi phí in ấn trên mỗi mẫu in 3D, giúp đánh giá tính khả thi và tiết kiệm chi phí trong việc áp dụng công nghệ này vào giáo dục. Việc tối ưu hóa chi phí in 3D giúp giảm bớt gánh nặng tài chính cho học sinh, đồng thời khuyến khích việc sử dụng công nghệ này rộng rãi trong các lớp học.
+3.2.	Tính sáng tạo của đề tài
+In 3D là phần bổ sung mật thiết cho thực tế ảo, nó khắc phục được nhược điểm của thực tế ảo tăng cường là các đối tượng không có thật nên không có sự cảm nhận trực tiếp gây cảm giác thật như mô hình 3D. Thay đổi cách tiếp cận với khoa học, hòa chung xu thế giáo dục 4.0 với sự phát triển mạnh mẽ của Trí tuệ nhân tạo, in 3D và thực tế ảo trong giai đoạn hiện nay.
+4.	Kết quả giải pháp
+4.1.	Quá trình chế tạo và thử nghiệm sản phẩm:
+Lần 1 (15/07/2024): Đề xuất ý tưởng và tiến hành nghiên cứu tài liệu. Tìm hiểu về phần cứng, phần mềm để xây dựng ứng dụng thực tế ảo. Áp dụng các tiêu chí: Miễn phí, rẻ, dễ sử dụng, chính xác cao, nhỏ gọn, an toàn, thân thiện môi trường. Kết quả: Chọn được phần mềm là Blender, Reality Scan, Reality Composer. Phần cứng: Máy in 3D Photon Mono 4K với mực in là nhựa Resin ABS, phần cứng kèm theo để hiển thị thực tế ảo AR chúng em sử dụng điện thoại hệ điều hành iOS. 
+
+![a14](https://github.com/user-attachments/assets/7c658686-ddb0-48cb-8f66-542bfe8b8060)
+Lần 2 (01/08/2024): Xây dựng quy trình. Khi thiết kế, chúng em đã gặp rất nhiều câu hỏi kiểu như làm cái này như thế nào, mình không biết thiết kế thì có làm được hay không? Để giải đáp các câu hỏi như vậy, nhóm em đã cùng xây dựng một quy trình làm việc cho những bạn có trình độ khác nhau từ không biết thiết kế cho đến biết thiết kế 3D và lập trình. Công việc này còn giúp tối ưu hóa thời gian thiết kế từ đó làm giảm giá thành sản phẩm làm ra.
+Lần 3 (16/08/2024): Quét mẫu (scan). Các vấn đề gặp phải khi quét mẫu là chất lượng không cao và mất chi tiết với các vật trong suốt như chai thủy tinh và nắp kim loại. Quét mẫu rất tốt trong trường hợp vật cần quét bằng chất liệu có độ phản chiếu ánh sáng thấp. Qua tìm hiểu các chuyên gia thì có một cách khắc phục khác là dùng sơn mô hình loại sơn phủ mờ lên vật kim loại để làm giảm độ bóng của nó. Giá thành sơn khác cao nên nhóm quyết định với các vật như vậy thì khắc phục bằng cách model với Blender bổ sung. Thời gian khắc phục khoảng 30 phút cho một mẫu.
+Lần 4 (20/08/2024): Tiến hành thiết kế. Còn công việc model các mẫu hình học diễn ra khá thuận lợi vì mẫu hình học 3D khá đơn giản. Đến đây thì nhóm em đã hoàn thành việc tạo nội dung học tập dạng 3D. Bắt đầu bước chuyển sang điện thoại và đưa vào phần mềm thực tế ảo.
+Lần 5 (01/09/2024): Chương trình thực tế ảo không chạy được hoạt hình. Là do khi xuất file từ Blender không chọn chế độ xuất animation và trong phần mềm Reality Composer cài đặt tương tác kích hoạt hoạt hình của cảnh usdz. Một số trường hợp sản phẩm thực tại ảo quá lớn, chúng em đã hiểu là tỉ lệ khối 3D trong Blender mặc định ứng với mỗi đường lưới là 1m, khi đưa vào chương trình thực tế ảo thì tỉ lệ đó vẫn được giữ nguyên trong thế giới thực. Trong chương trình thực tế ảo cũng cho phép tăng giảm kích thước, tuy nhiên để không mất thời gian, chúng em đã thiết lập kích thước từ đầu cho phù hợp thực tế.
+Trong quá trình sản xuất và chạy thử các nội dung thực tế ảo, mọi người đều cảm thấy chưa thỏa mãn với các sản phẩm làm ra và đặt câu hỏi, có thể in mẫu đó và bổ sung cho nội dung thực tế ảo hay không? Nhóm đã tìm hiểu về các công nghệ in ấn từ đó.
+Lần 6 (05/09/2024): Mẫu in bị lỗi. Đây là công đoạn mà chúng em gặp nhiều lỗi nhất vì nó phụ thuộc rất nhiều vào các yếu tố vật lí. Những có ba  lỗi thường gặp đó là:
+Lỗi thứ nhất: Chưa làm rỗng mẫu in dẫn đến hết mực giữa chừng với mẫu kích thước lớn vì chưa làm rỗng mẫu in dù khay đựng mực dung tích lớn nhất khoảng 250 ml. Lỗi thứ hai là: Thanh chống (còn gọi là thanh hỗ trợ support) chưa đủ lực giữ làm mẫu in bị rơi ra khi in. Lỗi thứ ba là: Mẫu in khi phơi khô cắt thanh support quá sớm làm mẫu bị co ngót. Với các chi tiết chuyển động thì loại mực in cũng đóng vai trò quan trọng trong sự thành công của các mẫu in.
+Hình ảnh các mẫu in lỗi về thanh support, không tạo rỗng, hiện tượng co ngót cong vênh mẫu
+![a15](https://github.com/user-attachments/assets/6f251779-16be-4f25-904f-79fd5f11398b)
+![a16](https://github.com/user-attachments/assets/8cd8378d-f21c-4246-912f-00f9391f5f1f)
+Lần 7 (01/10/2024): Thực nghiệm thành công. Thử nghiệm trên hai quy trình. Ghi nhận thời gian cho quy trình scan là 30 phút cộng với 1h in cho một mẫu có giá thành khoảng 50.000 VNĐ. Quy trình model thì mất 2h và in 1h với giá thành in tương tự.
+Lần 8 (15/10/2024): Thực nghiệm trên một mẫu phức tạp là Hệ Mặt Trời trong SGK chuyên đề Vật lí 10 Kết nối tri thức với cuộc sống. Đây là mẫu có rất nhiều đối tượng và có hệ thống chuyển động ràng buộc phức tạp. Nhóm đã model khối cầu đại diện cho các hành tinh, thêm vẽ các curve hình tròn là quỹ đạo chuyển động của khối cầu. Texture bề mặt các hành tinh với các map lấy từ internet. Địa chỉ  https://www.solarsystemscope.com/textures/ 
