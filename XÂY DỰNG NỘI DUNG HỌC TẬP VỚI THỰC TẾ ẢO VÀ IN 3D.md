@@ -189,3 +189,38 @@ Hình ảnh các mẫu in lỗi về thanh support, không tạo rỗng, hiện 
 ![a16](https://github.com/user-attachments/assets/8cd8378d-f21c-4246-912f-00f9391f5f1f)
 Lần 7 (01/10/2024): Thực nghiệm thành công. Thử nghiệm trên hai quy trình. Ghi nhận thời gian cho quy trình scan là 30 phút cộng với 1h in cho một mẫu có giá thành khoảng 50.000 VNĐ. Quy trình model thì mất 2h và in 1h với giá thành in tương tự.
 Lần 8 (15/10/2024): Thực nghiệm trên một mẫu phức tạp là Hệ Mặt Trời trong SGK chuyên đề Vật lí 10 Kết nối tri thức với cuộc sống. Đây là mẫu có rất nhiều đối tượng và có hệ thống chuyển động ràng buộc phức tạp. Nhóm đã model khối cầu đại diện cho các hành tinh, thêm vẽ các curve hình tròn là quỹ đạo chuyển động của khối cầu. Texture bề mặt các hành tinh với các map lấy từ internet. Địa chỉ  https://www.solarsystemscope.com/textures/ 
+Thực hiện animation (hoạt hình) chuyển động của các hành tinh theo đường dẫn (curve) là hình tròn, cho đối tượng là quả cầu ràng buộc bởi curve và sau đó chọn curve rồi chọn Path Animation, chèn frame đầu tiên là 0 với Evaluation Time là 0 và frame cuối cùng đặt giá trị là -100 cho vật chuyển động ngược chiều kim đồng hồ và +100 nếu muốn vật chuyển động cùng chuyển kim đồng hồ. 
+Muốn quả cầu chuyển động lặp lại liên tục thì chúng ta chọn Graph Editor-> Modifiers-> Cycles. Sau đó chọn quả cầu bake hoạt hình, chọn Menu Object-> Animation -> Bake Action.  
+Lặp lại việc thực hiện với các hành tinh khác: Hỏa tinh, Kim tinh,….. ta có kết quả hoàn thiện 
+Convert định dạng usdc trong Blender sang usdz bằng Reality Convert để tối ưu vấn đề hiển thị
+ 
+Chúng em đã thử kết quả với ứng dụng thực tế ảo trên phố và tại nhà.
+  
+Cuối cùng là bước in 3D Hệ Mặt Trời, trong quá trình in các quả cầu nhỏ và thanh đỡ khá nhỏ nên rất dễ gãy với nhựa resin bình thường, chúng em đã thay thế với nhựa resin ABS nhằm tăng độ cứng cho nó và giảm độ gòn của mẫu. Thời gian in mất 4h cho mẫu, sau đó làm sạch mẫu in và phơi trước tia UV để mẫu khô. 
+   
+Lần 9; 10  (cuối tháng 10 và tháng 11): Tiến hành số hóa thêm một số mẫu khác như Mô hình dao động điều hòa, từ trường trong cuộn dây, kết hợp nguyên tử H và O tạo ra phân tử nước,...Tiến hành viết báo cáo hoàn thiện sản phẩm.
+4.2.	Kết quả đạt được
+Xây dựng được các khối hình học cơ bản với định dạng thực tế ảo và mẫu in.
+Xây dụng được Mô phỏng hệ Mặt Trời dạng thực tế ảo và mẫu in.
+Xây dựng được Mô phỏng từ trường của một ống dây và mẫu in.
+ 
+Xây dựng được Mô phỏng dao động điều hòa và mẫu in.
+ 
+Xây dựng được Mô phỏng phân tử nước tạo thành từ nguyên tử O và nguyên tử H.
+Ngoài ra chúng em còn hướng dẫn quy trình cho các bạn trong trường qua câu lạc bộ STEM áp dụng tạo các sản phẩm học tập của mình và chia sẻ các mẫu thiết kế dùng chung. 
+4.3.	Khả năng triển khai, áp dụng giải pháp
+Ý tưởng có khả năng triển khai đại trà nhờ tận dụng thiết bị phổ thông như điện thoại, phần mềm miễn phí, vật liệu in 3D giá rẻ, và quy trình đơn giản, phù hợp cho nhiều đối tượng. Ngoài ra, ý tưởng dễ tích hợp vào giáo dục qua các chương trình STEM, nhân rộng mô hình.
+5.	Kết luận và hướng phát triển của đề tài
+5.1.	Kết luận
+	Việc kết hợp hai công nghệ thực tế ảo và in 3D là hoàn toàn khả thi, nó làm phong phú thêm thư viện học liệu số trước đây là hình ảnh, video. Đề tài cũng mở ra cơ hội cho chúng em tự xây dựng nội dung học tập phù hợp, góp phần hiện đại hóa giáo dục và khuyến khích sáng tạo trong học tập.
+5.2.	Hướng phát triển của đề tài
+Phát triển đề tài lên mức xây dựng quy trình cho người có kiến thức chuyên môn về lập trình với Swift trên nền Xcode nhằm nâng cao trải nghiệm người dùng thiên về công nghệ VR.  
+Xây dựng thư viện nội dung dùng chung như phát triển một nền tảng website để mọi người cùng chia sẻ và tái sử dụng tài liệu. Số hóa toàn bộ nội dung giáo trình: Nghiên cứu và lựa chọn các đơn vị kiến thức phù hợp trong toàn bộ sách giáo khoa hiện nay. Đảm bảo việc triển khai đồng bộ trên nhiều cấp học và môn học.
+Phát triển đề tài sang nhiều lĩnh vực khác như: Tạo ra trải nghiệm khám phá di tích lịch sử, danh lam thắng cảnh thông qua thực tế ảo và mô hình in 3D.  Đào tạo chuyên ngành: Dạy nấu ăn, phục vụ, lắp ráp máy móc. Thiết kế sản phẩm: Hỗ trợ các nhà thiết kế trong việc mô phỏng và thử nghiệm ý tưởng với thực tế ảo và in 3D. Giảng dạy y học: Ứng dụng vào đào tạo y khoa, bao gồm mô phỏng giải phẫu cơ thể, hệ thống vận chuyển máu, khí quản, và các quy trình y học.
+E. TÀI LIỆU THAM KHẢO
+1.	https://developer.apple.com/documentation/realitykit/realitykit-reality-composer/  
+2. https://www.blender.org/
+3. https://store.anycubic.com/collections/resin-3d-printer 
+4. https://www.fab.com/ 
+5. Đỗ Đức Thái (2020), Toán 11 Cánh diều, Nhà xuất bản Công ty cổ phần đầu tư xuất bản –thiết bị giáo dục Việt Nam.
+6. SGK Chuyên đề Vật lí 10 Kết nối tri thức với cuộc sống (tổng chủ biên: Vũ Văn Hùng).
