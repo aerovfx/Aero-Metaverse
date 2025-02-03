@@ -70,3 +70,92 @@ Kích thước in tối đa	Lớn	Nhỏ	Trung bình đến lớn	Trung bình	Nh�
 Tính linh hoạt vật liệu	Thấp (nhựa cơ bản)	Thấp (nhựa lỏng chuyên dụng)	Cao (nhiều loại bột)	Rất cao (kim loại đa dạng)	Trung bình (nhựa lỏng đa dạng)
 Thời gian hoàn thiện	Ngắn	Dài	Trung bình	Dài	Ngắn
 Giá thành sản phẩm	Rẻ 	Rẻ	Cao 	Rất cao 	Cao 
+1.2. Đặc điểm của đối tượng nghiên cứu:
+1.2.1. Phần cứng:
+Máy in 3D các loại:  Stratasys, MakerBot, Ultimaker, Formlabs, Prusa Research, 3D Systems, Creality, Anycubic, Raise3D, FlashForge, Markforged,…
+Điện thoại: iphone, samsung,…
+Kính VR: Google cardboard, Apple Vision Pro, ..
+Máy tính: Macbook, Laptop HP,…
+![a3](https://github.com/user-attachments/assets/62567c87-5943-4e8f-a6cc-e6e04def510c)
+
+
+1.2.2. Phần mềm: 
+	3D model: Blender, Zbrush, Maya, Houdini,..
+	AR, Scan: Reality Composer, Reality Convert, Reality Scan.
+	Giao diện Reality Composer 
+Code: Xcode (Swift), Unreal Engine (C++, Blueprint), Unity(C#).
+1.2.3: Quy trình sản xuất
+Tạo mô hình 3D: Quét vật thể bằng điện thoại hoặc thiết kế bằng phần mềm (Blender, Reality Composer).
+Xử lý mô hình: Tối ưu hóa và xuất định dạng phù hợp (USDZ, GLTF, STL).
+Tích hợp AR: Sử dụng Reality Composer để tạo môi trường ảo.
+Chuẩn bị in 3D: Nhập mô hình vào phần mềm in, tối ưu hóa thông số.
+In mẫu và hoàn thiện: In SLA, làm sạch và hoàn thiện mẫu.
+Kiểm tra và sử dụng: Đánh giá sản phẩm và áp dụng vào học tập hoặc chia sẻ.
+2.	Quá trình hình thành
+2.1.	Nghiên cứu ý tưởng
+	Nghiên cứu về các phần mềm, phần cứng và quy trình thiết kế nhằm tối ưu chi phí cũng như khả năng tiếp cận, tích hợp, chia sẻ, tái sử dụng để xây dựng nội dung thực tế ảo và in 3D. 
+	Phân tích chi phí in 3D chi tiết giúp giảm giá thành và tính khả thi của dự án.
+2.2.		Nghiên cứu thị trường, giá thành và vật liệu để làm
+	Các sản phẩm thực tế ảo hiện nay chủ yếu tập trung vào giải trí, trong khi ứng dụng cho giáo dục còn rất hiếm. Đề tài này lần đầu tiên xây dựng quy trình kết hợp thực tế ảo và in 3D, hướng đến cả những người không chuyên như học sinh, sử dụng thiết bị sẵn có là điện thoại. Về in 3D chúng em chọn công nghệ in SLA để tạo sản phẩm in nhỏ gọn, chi tiết cao, dễ chia sẻ và có chi phí phù hợp. Việc tính toán chi phí thực hiện với mẫu demo là mô hình toán học, được tối ưu hóa qua phần mềm cắt lớp của máy in.
+![a2](https://github.com/user-attachments/assets/585aea31-4efc-4689-b4ba-c2ef99204639)
+Tính số mẫu in/chai mực 1kg.
+	Thể tích mỗi mẫu: 24,12ml
+	Thể tích nhựa trong 1kg: khoảng 833 cm3 với khối lượng riêng là 1,2g/cm3.
+	Tính toán số lượng mẫu in được:
+	Số mẫu = (Thể tích nhựa trong 1kg)/(Thể tích mỗi mẫu) = 833/24,12 ≈ 34 mẫu.
+Với mức khấu hao tính như sau
+	Giá máy in SLA: 20 triệu VNĐ.
+	Số mẫu in trong 3 tháng: 30 mẫu
+	Tuổi thọ trung bình của máy in SLA: Thường khoảng 3-5 năm, tùy tần suất sử dụng và bảo trì.
+	Khấu hao tài sản cố định: 
+	Tổng số mẫu in dự kiến trong vòng đời máy:
+	Số mẫu in trong 5 năm là: (30 mẫu x (12 tháng/năm))/(3 tháng) x5=600 mẫu
+Tính khấu hao mỗi mẫu:
+	Khấu hao mỗi mẫu:  (Giá trị máy in)/(Tổng số mẫu in trong vòng đời)=20.000.000/600≈33.333VNĐ/ mẫu
+	Vậy in 34 mẫu thì khấu hao 34x33.333 VNĐ = 1.133.322 VNĐ.
+	Để tính chi phí giá thành cho 34 mẫu in, ta cần tổng hợp các chi phí gồm:
+	Nguyên liệu: 
+	Chi phí mực/mẫu=(Giá mực in)/(Số mẫu in từ 1kg)=350.000/34≈10.294 VNĐ/ mẫu
+	Chi phí mực cho 34 mẫu:
+	Chi phí mực = 10.294 x 34 = 350.000 VNĐ
+	Tổng chi phí giá thành:
+	Tổng chi phí = Chi phí mực + Chi phí khấu hao=350,000+1.133.322=1.483.322VNĐ.
+	Chi phí giá thành cho mỗi mẫu:
+	Chi phí/mẫu=(Tổng chi phí)/(Số mẫu)=1.483.322/34≈43.627VNĐ/ mẫu
+	Làm tròn với chi phí in khoảng 50.000 VNĐ/mẫu là chi phí chấp nhận được với học sinh
+	Từ đó chúng em kết luận: việc in ấn 3D với công nghệ SLA là đảm bảo chi phí phù hợp và độ chi tiết cao, phù hợp với dự án chúng em đang thực hiện.
+	Nghiên cứu phần mềm
+	Phần mềm 3D: Blender miễn phí, đủ công cụ model và xử lý file scan, phù hợp cho người dùng phổ thông. Maya và Houdini là phần mềm chuyên nghiệp, Houdini miễn phí với gói phi thương mại.
+Phần mềm AR và Scan: Reality Composer, Reality Convert, Reality Scan đều miễn phí, do Apple và Epic Games phát triển, hỗ trợ xử lý file thực tế ảo.
+Kết luận: Cuối cùng chúng em đã chọn Blender cho việc model, Reality Scan cho scan mẫu và ứng dụng Reality Composer cho hiển thị các file thực tế ảo định dạng Usdz.
+	Nghiên cứu quy trình
+	Chúng em đã căn cứ trên các tiêu chí của quy trình phát triển một sản phẩm và đưa ra sơ đồ sau nhằm giúp mỗi người có thể định hướng được công việc của mình.
+![a5](https://github.com/user-attachments/assets/943ffeb0-d816-4642-9b16-088c7db9bcb0)
+2.5.	Các bước thực hiện 
+Quy trình số hóa một mẫu búp bê có tên là Capybara để in ấn và hiển thị thực tế ảo.
+Bước 1. Đối tượng cần số hóa là vật có sẵn độ chi tiết cao, nếu model cần một người họa sỹ có kỹ năng tốt và mất khoảng hai ngày cho công việc này do đó chúng em chọn phương án scan.
+Bước 2. Tải và cài đặt ứng dụng miễn phí Reality Scan hoặc Reality Composer trên điện thoại hoặc máy tính bảng. Dùng camera của thiết bị để quét mẫu, di chuyển xung quanh vật thể một cách chậm rãi và đều đặn để thu được hình ảnh rõ nét. 
+
+![a4](https://github.com/user-attachments/assets/5366f089-4988-4630-8836-e18fd7f2948c)
+Bước 3. Sau khi scan, chúng em lưu file vào chương trình Blender, làm sạch file (nếu cần) và sau đó xuất ra các phiên bản khác như STL dùng in ấn, định dạng Usdz để đưa vào AR.
+Bước 4. Tích hợp vào chương trình thực tế ảo tăng cường Reality Composer.
+Kiểm tra và hiệu chỉnh tương tác, hoạt cảnh của đối tượng với ứng dụng thực tế ảo tăng cường.
+Bước 5. In thử nghiệm và đánh giá: Cắt lớp, tạo thanh chống hỗ trợ mẫu, tính toán chi phí, chuyển file ra usb của máy in và cắm vào máy in, đổ mực in.
+![a5](https://github.com/user-attachments/assets/d4a05dd9-1c3c-47d3-b2d7-359168598834)
+
+Đợi khoảng 1h, máy in xong thì để khô dưới ánh sáng Mặt trời hoặc rửa trong dung dịch cồn. Sau đó cắt bỏ các thanh chống (support), làm sạch mẫu in. Thành quả sau khi in
+![a6](https://github.com/user-attachments/assets/334b6ec6-99dd-48b1-9a21-420e5c490f0f)
+Quy trình số hóa các hình dạng hình học cơ bản trong SGK Toán học 11
+Bước 1. Đối tượng cần số hóa là các hình dạng hình học như: Hình chóp cụt, khối chóp có đáy là đa giác, kim tự tháp, lăng trụ tam giác. Những mẫu này có ứng dụng thực tế trong việc nghiên cứu về các khối đa diện trong việc tính toán thể tích, diện tích. 
+Bước 2. Thực hiện model các hình khối với các lệnh Add Mesh và di chuyển các điểm, cạnh, mặt để tạo hình mong muốn. Sử dụng LOD (Level of Detail) nếu cần để tối ưu hóa hiệu suất.
+Bước 3. Sau khi model, chúng em lưu file gốc (Blender) và các phiên bản khác như STL, USDZ.
+Quá trình thiết kế mẫu 3D trên phần mềm Blender
+
+![a7](https://github.com/user-attachments/assets/09537b5a-a411-4494-8c52-e7b607a71190)!
+[a8](https://github.com/user-attachments/assets/2eb43f16-2ebe-4d6a-9ad0-b30fe3ae5453)
+
+
+![a9](https://github.com/user-attachments/assets/d49ec165-5634-4546-a109-494a30761026)
+
+Bước 4. Tích hợp vào chương trình thực tế ảo tăng cường Reality Composer. Kiểm tra và hiệu chỉnh tương tác, hoạt cảnh của đối tượng với ứng dụng thực tế ảo tăng cường.
+Bước 5. In thử nghiệm và đánh giá: Cắt lớp, tạo thanh chống hỗ trợ mẫu, tính toán chi phí, chuyển file ra usb của máy in và cắm vào máy in, đổ mực in.
